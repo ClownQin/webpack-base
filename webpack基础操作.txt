@@ -1,0 +1,12 @@
+###
+	1、我们从终端中 使用web pack js/bundle.js js/bundle.js 可以把前面的就是代码打包到后面的就是中
+	2、如果要打包多个js文件  需要在 entry.js  通过require('./model1.js')引入其他需要打包的js
+	3、也可以通过 webpack.config.js 默认配置文件在终端中直接webpack打包。
+		module.exports = {
+			entry:'./js/entry.js',
+			output:{
+				filename:'./bundle.js'
+			}
+		}
+
+	
